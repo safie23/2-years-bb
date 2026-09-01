@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Love Story 🤍</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- หน้าเปิด -->
+  <div class="intro" id="intro">
+    <div class="envelope-box">
+      <div class="envelope" id="envelope">
+        <div class="letter font-love">ถึงคนพิเศษของเรา 🤍</div>
+        <div class="envelope-flap"></div>
+      </div>
+
+      <h1 class="font-love">จดหมายถึงเธอ</h1>
+      <p>มีบางอย่างอยากบอกในวันครบรอบ 2 ปีของเรา</p>
+
+      <button class="open-button" id="openButton">
+        เปิดจดหมาย 💌
+      </button>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="font-love top-text">For my favorite person</p>
+
+        <h1 class="font-love">
+          2 Years<br>
+          <span class="heart">♥</span> Together
+        </h1>
+   
+        <h2 id="coupleName">ชื่อของคุณ & ชื่อแฟน</h2>
+
+        <p class="hero-description">
+          ขอบคุณที่เข้ามาทำให้วันธรรมดาของเรา
+          กลายเป็นวันที่แสนพิเศษ
+        </p>
+             <button class="music-button" id="musicButton">
+                 🔊 เปิดเพลง
+             </button>
+
+        <div class="counter">
+          <div class="counter-item">
+            <strong id="days">0</strong>
+            <span>วันที่รักกัน</span>
+          </div>
+
+          <div class="counter-item">
+            <strong id="hours">0</strong>
+            <span>ชั่วโมง</span>
+          </div>
+
+          <div class="counter-item">
+            <strong id="minutes">0</strong>
+            <span>นาที</span>
+          </div>
+
+          <div class="counter-item">
+            <strong id="seconds">0</strong>
+            <span>วินาที</span>
+          </div>
+        </div>
+
+        <a href="#story" class="scroll-down font-love">
+          เลื่อนลงเพื่อดูเรื่องราวของเรา<br>
+          ↓
+        </a>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="story">
+      <div class="container">
+        <h2 class="section-title font-love">เรื่องราวของเรา</h2>
+        <p class="section-subtitle">
+          ทุกช่วงเวลาที่มีเธอ ล้วนมีความหมาย
+        </p>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+              <img src="ef.jpg" alt="วันแรกที่เราได้รู้จักกัน">
+              <small>จุดเริ่มต้น</small>
+              <h3>วันที่เราได้รู้จักกัน</h3>
+              <p>
+                วันนั้นเราอาจยังไม่รู้ว่าเธอจะกลายเป็นคนสำคัญ
+                แต่วันนี้เราดีใจมากที่ได้เจอเธอ
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+              <img src="1.jpg" alt="วันที่เราเริ่มคบกัน">
+              <small>วันสำคัญ</small>
+              <h3>วันที่เราเริ่มคบกัน</h3>
+              <p>
+                วันที่ธรรมดาวันหนึ่ง กลายเป็นวันที่เราจะจดจำไปอีกนาน
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+              <img src="2.jpg" alt="ความทรงจำของเรา">
+              <small>ระหว่างทาง</small>
+              <h3>ความทรงจำของเรา</h3>
+              <p>
+                เราอาจไม่ได้มีแต่วันที่สมบูรณ์แบบ
+                แต่ทุกวันที่มีเธอคือวันที่มีความหมาย
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-card">
+              <img src="3.jpg" alt="ครบรอบสองปี">
+              <small>วันนี้</small>
+              <h3>ครบรอบ 2 ปีของเรา</h3>
+              <p>
+                ขอบคุณที่ยังอยู่ตรงนี้
+                และขอให้เรามีเรื่องราวดี ๆ ด้วยกันอีกมากมาย
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section>
+      <div class="container">
+        <h2 class="section-title font-love">รูปของเรา</h2>
+        <p class="section-subtitle">
+          ช่วงเวลาที่อยากเก็บไว้ตลอดไป
+        </p>
+
+        <div class="gallery">
+          <img src="9.jpg" alt="รูปความทรงจำที่ 1">
+          <img src="8.jpg" alt="รูปความทรงจำที่ 2">
+          <img src="7.jpg" alt="รูปความทรงจำที่ 3">
+          <img src="5.jpg" alt="รูปความทรงจำที่ 4">
+          <img src="6.jpg" alt="รูปความทรงจำที่ 5">
+          <img src="4.jpg" alt="รูปความทรงจำที่ 6">
+        </div>
+      </div>
+    </section>
+
+    <!-- เหตุผลที่รัก -->
+    <section>
+      <div class="container">
+        <h2 class="section-title font-love">เหตุผลที่รักเธอ</h2>
+        <p class="section-subtitle">
+          ลองกดที่การ์ดดูสิ 🤍
+        </p>
+
+        <div class="reasons">
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะเธอทำให้วันธรรมดาของเราน่ารักขึ้น
+              </div>
+            </div>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะเธอรับฟังเราเสมอ
+              </div>
+            </div>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะอยู่กับเธอแล้วเราเป็นตัวเองได้
+              </div>
+            </div>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะเธอคือกำลังใจที่ดีที่สุด
+              </div>
+            </div>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะเธอจำรายละเอียดเล็ก ๆ ของเราได้
+              </div>
+            </div>
+          </div>
+
+          <div class="reason-card">
+            <div class="reason-inner">
+              <div class="reason-front">♥</div>
+              <div class="reason-back">
+                เพราะเธอคือคนที่เราอยากเดินไปด้วยกัน
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- จดหมาย -->
+    <section>
+      <div class="container">
+        <h2 class="section-title font-love">จดหมายถึงเธอ</h2>
+        <p class="section-subtitle">
+          สิ่งที่อยากบอกในวันครบรอบของเรา
+        </p>
+
+        <div class="love-letter">
+          <p>
+            ถึง <span id="letterName">ชื่อแฟน</span>
+          </p>
+
+          <p>
+            ขอบคุณสำหรับตลอด 2 ปีที่ผ่านมา
+            ขอบคุณที่อยู่ข้างกันทั้งในวันที่มีความสุขและวันที่เหนื่อย
+          </p>
+
+          <p>
+            ทุกช่วงเวลาที่มีเธอทำให้เราเข้าใจว่า
+            ความรักไม่จำเป็นต้องสมบูรณ์แบบ
+            ขอแค่เรายังเลือกที่จะเข้าใจกัน ให้อภัยกัน
+            และเดินไปด้วยกัน
+          </p>
+
+          <p>
+            สุขสันต์ครบรอบ 2 ปีน้าา💖
+            ขอบคุณที่เป็นคนพิเศษที่สุดในชีวิตของแบ
+            แบรักเดะมาก ๆ และอยากมีเดะในทุก ๆ วันต่อจากนี้
+          </p>
+
+          <p class="signature font-love">
+            รักเธอเสมอ<br>
+            จาก <span id="signatureName">ชื่อของคุณ</span> 🤍
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="font-love">
+      Made with love for our 2nd anniversary ♥
+    </p>
+  </footer>
+    <div id="qrcode"></div>
+  <script src="script.js"></script>
+</body>
+</html>
